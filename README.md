@@ -2,7 +2,7 @@
 Simple search server
 
 Add stop words and documents then search with key words.
-Example adding document:
-  AddDocument(search_server, 1, "smooth cat smooth tail"s, DocumentStatus::ACTUAL, {7, 2, 7});
-Example searching:
-  FindTopDocuments(search_server, "lazy -dog"s);
+In file test_example_functions.cpp some simple tests.
+
+Программа для поиска по ключевым словам в добавленных ранее документах. Учитывает статус документа и его рейтинг, ранжирует результаты по TF-IDF с учетом стоп слов.
+main.cpp запускает тесты программы.
